@@ -1,0 +1,9 @@
+{
+	"name": "bq-db-logadf",
+	"location": "norwayeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "49985bb5-2b62-457b-acd3-24892f1d9c56",
+		"tenantId": "d47f518f-b7ff-46c4-80ea-89c1c3139271"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"name": "example_sql_dataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sql-server-linked-service",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"typeProperties": {
+			"tableName": "table-1"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

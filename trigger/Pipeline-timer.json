@@ -1,0 +1,24 @@
+{
+	"name": "Pipeline-timer",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "example-pipeline",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 5,
+				"startTime": "2024-12-18T11:47:29Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}

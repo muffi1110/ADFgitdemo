@@ -1,0 +1,16 @@
+{
+	"name": "example_blob_dataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "example_blob_storage_link",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureBlob",
+		"typeProperties": {
+			"fileName": "",
+			"folderPath": "bronze"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
